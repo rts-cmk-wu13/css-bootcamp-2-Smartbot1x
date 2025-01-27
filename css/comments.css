@@ -28,13 +28,20 @@
 }
 
 .comment-icon {
-    font-size: 47px;
+    width: 3.125rem;
+    height: 50px;
+    border-radius: 50%;
     color: #ffffff;
     position: relative;
     right: 89px;
     top: 44px;
     background-color: black;
 }
+ .fa-user{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 
 .comment-name {
     font-size: 18px;
@@ -68,6 +75,11 @@
     text-decoration: none;
 
 }
+.comment-link:last-child::after {
+    content: '  >> ';
+    gap: .9375rem;
+}
+
 
 .comment-link:hover {
     text-decoration: underline; 
